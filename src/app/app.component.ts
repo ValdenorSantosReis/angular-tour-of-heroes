@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Tour of Heroes';
+  exibeMessage: boolean = true; 
+  destruir(){
+    this.exibeMessage = false;
+   }
 }

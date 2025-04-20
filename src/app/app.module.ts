@@ -8,6 +8,10 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { MockHeroesComponent } from './mock-heroes/mock-heroes.component';
+import { NavbarComponent } from './_components/navbar/navbar.component';
+import { FooterComponent } from './_components/footer/footer.component';
+import { BotaoComponent } from './_components/botao/botao.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    MockHeroesComponent,
+    NavbarComponent,
+    FooterComponent,
+    BotaoComponent
   ],
   imports: [
     BrowserModule,
