@@ -12,6 +12,8 @@ import { MockHeroesComponent } from './mock-heroes/mock-heroes.component';
 import { NavbarComponent } from './_components/navbar/navbar.component';
 import { FooterComponent } from './_components/footer/footer.component';
 import { BotaoComponent } from './_components/botao/botao.component';
+import { UsersComponent } from './users/users.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { BotaoComponent } from './_components/botao/botao.component';
     MockHeroesComponent,
     NavbarComponent,
     FooterComponent,
-    BotaoComponent
+    BotaoComponent,
+    UsersComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
