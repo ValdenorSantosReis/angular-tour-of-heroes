@@ -5,7 +5,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { MockHeroesComponent } from './mock-heroes/mock-heroes.component';
-import { UserComponent } from './user/user.component';
+import { UserComponent } from './_components/user/user.component';
 import { UsersComponent } from './users/users.component';
 
 const routes: Routes = [
@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'heroes', component: HeroesComponent },
   { path: 'mock-heroes', component: MockHeroesComponent },
   { path: 'users/list', component: UsersComponent },
-  { path: 'users/detail', component: UserComponent  }
+  { path: 'users/details', component: UserComponent  }
 ];
 
 

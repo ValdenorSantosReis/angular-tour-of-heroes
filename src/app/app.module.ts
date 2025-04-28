@@ -13,7 +13,9 @@ import { NavbarComponent } from './_components/navbar/navbar.component';
 import { FooterComponent } from './_components/footer/footer.component';
 import { BotaoComponent } from './_components/botao/botao.component';
 import { UsersComponent } from './users/users.component';
-import { UserComponent } from './user/user.component';
+import { UserComponent } from './_components/user/user.component';
+import { BaseUiComponent } from './_components/base-ui/base-ui.component';
+import { UserCardComponent } from './_components/user-card/user-card.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { UserComponent } from './user/user.component';
     FooterComponent,
     BotaoComponent,
     UsersComponent,
-    UserComponent
+    UserComponent,
+    BaseUiComponent,
+    UserCardComponent
   ],
   imports: [
     BrowserModule,

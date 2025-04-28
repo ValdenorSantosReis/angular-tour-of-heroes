@@ -19,6 +19,9 @@
       padding: 20px;
       text-align: center;
       font-size: 0.9em;
+      position: relative;
+      margin-top: outo;
+      bottom: 0;
     }
 
     .footer-links a {
